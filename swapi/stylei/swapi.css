@@ -3,40 +3,45 @@ body {
     margin: 20px;
     padding: 0;
     line-height: 1.6;
-    background-color: #f9f9f9;
-}
-
-h1 {
+    background-color: #121212; 
+    color: #e0e0e0; 
+  }
+  
+  h1 {
     text-align: center;
-    color: #333;
-}
-
-table {
+    color: #ffffff; 
+  }
+  
+  table {
     width: 100%;
     border-collapse: collapse;
     margin: 20px 0;
-    background-color: white;
-}
-
-table, th, td {
-    border: 1px solid #ccc;
-}
-
-th, td {
+    background-color: #1e1e1e; 
+  }
+  
+  table,
+  th,
+  td {
+    border: 1px solid #333; 
+  }
+  
+  th,
+  td {
     padding: 8px 12px;
     text-align: left;
-}
-
-th {
-    background-color: #f2f2f2;
+  }
+  
+  th {
+    background-color: #333; 
     font-weight: bold;
-    color: #555;
-}
-
-td {
-    color: #666;
-}
-
-tr:nth-child(even) {
-    background-color: #f9f9f9;
-}
+    color: #e0e0e0; 
+  }
+  
+  td {
+    color: #cfcfcf; 
+  }
+  
+  tr:nth-child(even) {
+    background-color: #1a1a1a; 
+  }
+  
