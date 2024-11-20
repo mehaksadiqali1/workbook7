@@ -1,19 +1,19 @@
 "use strict";
 let idInput = document.querySelector("#idInput");
+let infoDiv = document.querySelector("#infoDiv")
+
 
 async function getToDo(id) {
-  let promise = fetch("https://jsonplaceholder.typicode.com/todos/" + id);
-  let response = await promise;
-  let todo = await response.json();
-  console.log(todo);
-}
+  let promise = fetch("https://jsonplaceholder.typicode.com/users/" + id);
+    let response = await promise; 
+    let todo = await response.json(); 
+    console.log(todo)
+    infoDiv.innerText = todo.tittle
+  }
 
-function showDetails() {
-  console.log(idInput.value);
-  let id = idInput.value;
-  getToDo(id);
+function displayDetails(){
+    //console.log(idInput.value);
+    infoDiv.innerText = todo.name;
+    let id = idInput.value;
+    getToDo(id);
 }
-
-let id = 1;
-let message = `Hello, World! ${id}`;
-console.log(message);
